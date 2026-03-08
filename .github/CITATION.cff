@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: The Plumbing Premium
+message: >-
+  If you reference this framework in research, analysis, or writing,
+  please cite it using the metadata below.
+type: article
+authors:
+  - family-names: Talvinder
+    given-names: B.
+    affiliation: Zopdev
+    website: https://talvinder.com
+date-released: "2026-03-04"
+url: https://talvinder.com/frameworks/ai-runtime-infrastructure-play/
+repository-code: https://github.com/talvinder/the-plumbing-premium
+license: CC-BY-4.0
+keywords:
+  - ai-infrastructure
+  - venture-capital
+  - platform-economics
+  - cloud-infrastructure
+  - startup-strategy
+abstract: >-
+  The Plumbing Premium is the systematic underpricing of infrastructure
+  relative to applications in the early phase of any compute paradigm
+  shift, followed by the systematic outperformance of infrastructure
+  companies once the application layer commoditizes.
