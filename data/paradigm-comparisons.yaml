@@ -1,0 +1,59 @@
+# Cross-Paradigm Evidence for The Plumbing Premium
+# Source: public financials, press releases, market data
+# Last updated: 2026-03-08
+# License: CC BY 4.0 — B. Talvinder, talvinder.com
+
+paradigms:
+  - name: Cloud Computing
+    period: "2006–2020"
+    infrastructure_winner: Amazon Web Services (AWS)
+    infra_launched: 2006
+    infra_revenue_2023: "~$90B"
+    infra_operating_margin: "~30%"
+    application_layer:
+      capital_peak: "2006–2012"
+      dominant_categories: ["Social networks", "SaaS tools", "E-commerce platforms"]
+      outcome: "High attrition. Most application-layer companies from this era no longer exist."
+    pattern_note: >
+      AWS was positioned as supporting infrastructure — not the primary investment thesis.
+      By 2023 it became the most profitable cloud business in history.
+
+  - name: Payments
+    period: "2010–2022"
+    infrastructure_winner: Stripe
+    infra_launched: 2010
+    infra_peak_valuation: "~$95B (2021)"
+    infra_status: "Profitable, expanding into adjacent infrastructure (Atlas, Treasury, Issuing)"
+    application_layer:
+      capital_peak: "2010–2018"
+      dominant_categories: ["Neobanks", "Lending platforms", "Digital wallets", "Personal finance tools"]
+      outcome: "Majority pivoted, merged, or shut down. Few durable standalone winners."
+    pattern_note: >
+      Stripe built the rails. Every fintech application needed it or something like it.
+      The application layer churned; the infrastructure layer compounded.
+
+  - name: AI Runtime Infrastructure
+    period: "2023–present"
+    infrastructure_winners: ["Modal Labs", "Baseten", "Fireworks AI"]
+    infra_combined_funding: ">$700M (deployment layer alone)"
+    infra_combined_valuation: ">$7B"
+    application_layer:
+      capital_peak: "2023–present (ongoing)"
+      dominant_categories: ["AI copilots", "AI content tools", "AI agents", "AI search"]
+      outcome: "TBD — early stage. Feature convergence and model commoditization already visible."
+    pattern_note: >
+      Infrastructure valuations pulling ahead of application valuations on revenue-multiple basis.
+      Implied ARR multiples: 16–22x for infrastructure vs 5–8x for application SaaS.
+
+the_plumbing_premium:
+  definition: >
+    The systematic underpricing of infrastructure relative to applications in the early phase
+    of any compute paradigm shift, followed by the systematic outperformance of infrastructure
+    companies once the application layer commoditizes.
+  mechanism:
+    - "Infrastructure scales with all applications simultaneously"
+    - "Switching costs compound with usage depth"
+    - "Margins improve as volume grows (economies of scale)"
+    - "Applications compete on convergent features; infrastructure competes on divergent operations"
+  author: "B. Talvinder"
+  canonical_url: "https://talvinder.com/frameworks/ai-runtime-infrastructure-play/"

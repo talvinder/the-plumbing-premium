@@ -1,0 +1,87 @@
+# AI Runtime Infrastructure — Funding Data
+# Source: public disclosures, press releases, Crunchbase
+# Last updated: 2026-03-08
+# License: CC BY 4.0 — B. Talvinder, talvinder.com
+
+deployment_layer:
+  - company: Modal Labs
+    category: Serverless GPU / inference
+    total_raised: "$111M"
+    valuation: "$1.1B"
+    arr_estimate: "~$50M"
+    notable: "Seed to unicorn in <2 years"
+    last_round: "Series B, Sep 2025, $87M"
+
+  - company: Baseten
+    category: Model serving / deployment
+    total_raised: "$285M+"
+    valuation: "$2.15B"
+    notable: "Enterprise model deployment"
+    last_round: "Series D, $150M"
+
+  - company: Fireworks AI
+    category: Inference optimization
+    total_raised: "$331M"
+    valuation: "$4.0B"
+    notable: "Multi-model serving, speed benchmarks"
+    last_round: "$254M round"
+
+  - company: Together AI
+    category: Open model inference
+    total_raised: "$225M+"
+    valuation: "$1.25B"
+    notable: "Open-source model hosting and fine-tuning"
+    last_round: "Series A, $102.5M"
+
+  - company: Replicate
+    category: Model hosting / API
+    total_raised: "$58M+"
+    notable: "Developer-first model deployment"
+
+observability_layer:
+  - company: Arize AI
+    category: ML observability
+    total_raised: "$70M+"
+    notable: "Series C, Feb 2025"
+
+  - company: Galileo
+    category: AI evaluation intelligence
+    total_raised: "$45M+"
+    revenue_growth: "834% (2024)"
+    notable: "6 Fortune 50 customers"
+    last_round: "Oct 2024"
+
+  - company: Helicone
+    category: LLM observability
+    notable: "Open-source, developer-led growth"
+
+  - company: Langfuse
+    category: LLM tracing and analytics
+    notable: "Open-source, YC-backed"
+
+orchestration_layer:
+  - company: LangChain
+    category: Agent orchestration
+    notable: "Open-source, dominant in LLM app frameworks"
+
+  - company: LlamaIndex
+    category: Data framework for LLM apps
+    notable: "Open-source, RAG-first architecture"
+
+evaluation_layer:
+  - company: Braintrust
+    category: AI evaluation and logging
+    notable: "Enterprise eval pipelines"
+
+  - company: Patronus AI
+    category: LLM evaluation and safety
+    notable: "Automated hallucination detection"
+
+  - company: Confident AI
+    category: LLM testing framework
+    notable: "YC W25, open-source DeepEval"
+
+summary:
+  deployment_layer_combined_funding: ">$700M"
+  total_infrastructure_funding: ">$1B across all layers"
+  pattern: "Capital concentrating in deployment layer, with observability as fastest-growing segment"
